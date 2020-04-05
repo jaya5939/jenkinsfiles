@@ -6,11 +6,11 @@ stages{
          echo "this is helloworld pipeline"
 }
 }
-#stage('ctreating a doirectory'){
-#   steps{
-#  sh 'mkdir /tmp/jenkins-pipeline'
-#}
-#}
+//stage('ctreating a doirectory'){
+//   steps{
+//  sh 'mkdir /tmp/jenkins-pipeline'
+//}
+//}
 stage('os version'){
  steps{
   sh 'cat /etc/*release*'
