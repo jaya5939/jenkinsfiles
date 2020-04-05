@@ -1,6 +1,11 @@
 pipeline{
 agent any
 stages{
+stage(getting source code){
+steps{
+ git 'git@github.com:jaya5939/jenkinsfiles.git'
+}
+}
  stage('creating a file'){
     steps{
          echo "this is helloworld pipeline"
