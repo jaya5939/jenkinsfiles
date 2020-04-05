@@ -11,7 +11,13 @@ stage('ctreating a doirectory'){
     sh 'mkdir /tmp/jenkins-pipeline'
 }
 }
+stage('os version'){
+ steps{
+  sh 'cat /etc/*release*'
 }
 }
+}
+}
+
 
 
