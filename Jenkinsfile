@@ -8,7 +8,7 @@ stages{
 }
 stage('ctreating a doirectory'){
    steps{
-    sh 'mkdir /tmp/jenkins-pipeline'
+  //  sh 'mkdir /tmp/jenkins-pipeline'
 }
 }
 stage('os version'){
